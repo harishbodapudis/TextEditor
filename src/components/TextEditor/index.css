@@ -1,0 +1,106 @@
+.main-container {
+  background-color: #25262c;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-app-container {
+  background-color: #1b1c22;
+  width: 90%;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.text-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  padding: 10px 10px;
+  color: #f8fafc;
+}
+
+.text-editor-img {
+  width: 250px;
+  height: 350px;
+  padding: 10px 0px;
+}
+.editor-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #25262c;
+  width: 48%;
+  border: 1px solid#334155;
+  border-radius: 5px;
+  height: 100%;
+  padding: 10px 0px;
+  height: 75vh;
+}
+.text-box {
+  width: 98%;
+  margin: auto;
+  height: 64vh;
+  background-color: transparent;
+  border: 0px;
+  padding: 5px 10px;
+  color: #f8fafc;
+  outline: none;
+  font-family: roboto;
+}
+
+.btn-box {
+  border-bottom: 1px solid #334155;
+  width: 100%;
+  padding: 10px 5px;
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.bold-letter {
+  border: 0px;
+  background-color: transparent;
+  font-weight: bold;
+  color: #f1f5f9;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.italic-letter {
+  border: 0px;
+  background-color: transparent;
+  color: #f1f5f9;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 16px;
+}
+.underline-letter {
+  border: 0px;
+  background-color: transparent;
+  color: #f1f5f9;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.btn-color {
+  color: #faff00;
+}
